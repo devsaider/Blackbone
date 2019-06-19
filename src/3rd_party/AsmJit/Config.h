@@ -30,6 +30,7 @@
 // ============================================================================
 
 #ifdef BLACKBONE_STATIC
+#define ASMJIT_EMBED
 #define ASMJIT_STATIC
 #elif BLACKBONE_EXPORTS
 #define ASMJIT_EXPORTS
